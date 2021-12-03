@@ -38,7 +38,7 @@ export default function Home() {
                 <div className="flex text-xs sm:text-sm items-center py-5">
                     <p>My Trips</p>
                     <div className="flex items-center">
-                        <div className="border-right opacity-50 h-5 mx-2 sm:mx-4"></div>
+                        <div className="border-r opacity-50 h-5 mx-2 sm:mx-4"></div>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6"
@@ -61,7 +61,9 @@ export default function Home() {
                 <div className="w-40 sm:min-w-max">
                     <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
                     <ul className="flex md:flex-col min-w-max">
-                        <li className="w-8 h-8 mr-2 md:mr-0 flex items-center justify-center">FEB</li>
+                        <li className="w-8 h-8 mr-2 md:mr-0 flex items-center justify-center">
+                            FEB
+                        </li>
                         <li className="bg-opacity-50 bg-black text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
                             15
                         </li>
