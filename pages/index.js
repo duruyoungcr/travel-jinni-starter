@@ -38,7 +38,7 @@ export default function Home() {
                 <div className="flex text-xs sm:text-sm items-center py-5">
                     <p>My Trips</p>
                     <div className="flex items-center">
-                        <div className="border-r opacity-50 h-5 mx-2 sm:mx-4"></div>
+                        <div className="border-r-2 opacity-50 h-5 mx-2 sm:mx-4"></div>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6"
