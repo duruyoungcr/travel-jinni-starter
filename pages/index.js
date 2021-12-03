@@ -87,7 +87,7 @@ export default function Home() {
                                     className="rounded-full"
                                 />
                             </div>
-                            <div className="text-center border border-white max-w-max h-20">
+                            <div className="text-center border border-white max-w-max h-20 overflow-hidden">
                                 <h1 className="head-t font-bold font-mono tracking-wide px-3">
                                     HILTON HOTEL
                                 </h1>
