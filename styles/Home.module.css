@@ -26,7 +26,7 @@
     margin-top: 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 405px) {
     .navtext {
         font-size: .6rem;
     }
