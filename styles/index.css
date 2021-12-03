@@ -2,15 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-    .blur-filter{
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+}
+
+@layer utilities {
+    .blur-filter {
         backdrop-filter: blur(5px);
     }
 }
-.div-w{
-    width:46%
+
+.div-w {
+    width: 46%
 }
-.head-t{
+
+.head-t {
     font-size: 2.8rem;
     line-height: 50px;
+}
+
+@media screen and (max-width: 645px) {
+    .head-t {
+        font-size: 1.8rem;
+    }
 }
